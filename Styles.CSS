@@ -1,0 +1,66 @@
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: 'oskar', Oskar Inline One;
+	text-align: center;
+}
+
+.container{
+	width: 50%;
+	margin: 0 auto;
+	padding: 15rem 0;
+}
+
+.title{
+	font-size: 2.5em;
+}
+
+.title span{
+	font-weight: 300;
+	display: block;
+}
+
+
+header{
+	position: absolute;
+	left: 0;
+	right: 0;
+	background: black;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin: 1em;
+}
+
+nav a{
+	font-weight: 800;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	padding: .5em;
+	color: white;
+}
+
+nav a:hover,
+nav a:focus{
+	color: grey;
+}
+
+.home-hero{
+	background-image: url("Assets/HomeBackground.png");
+	background-position: top;
+	padding: 10em 0;
+	color: white;
+}
